@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm fhxsoW"
+  >
+    <a
+      data-testid="card-link"
+      href="/character/1"
+    >
+      <div
+        class="card-overlay"
+      />
+      <img
+        alt="Test"
+        data-testid="card-image"
+        src="google.com"
+      />
+    </a>
+  </div>
+</DocumentFragment>
+`;

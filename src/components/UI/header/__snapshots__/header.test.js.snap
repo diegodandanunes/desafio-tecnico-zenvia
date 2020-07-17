@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <header>
+    <div
+      class="sc-AxirZ iXyIpx"
+    >
+      <div
+        class="sc-AxhCb bGeBvo"
+      >
+        <img
+          alt="Logo Diego Nunes"
+          src="logo.png"
+        />
+        <ul>
+          <li>
+            Desafio técnico 
+            <span>
+              |
+            </span>
+             
+            <strong>
+              Zenvia
+            </strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;

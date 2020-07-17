@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxirZ iXyIpx"
+  >
+    <div
+      class="min-h-100 display-flex"
+    >
+      <div
+        class="display-flex flex-column w-100"
+      >
+        <header>
+          <div
+            class="sc-AxirZ iXyIpx"
+          >
+            <div
+              class="sc-AxhCb bGeBvo"
+            >
+              <img
+                alt="Logo Diego Nunes"
+                src="logo.png"
+              />
+              <ul>
+                <li>
+                  Desafio técnico 
+                  <span>
+                    |
+                  </span>
+                   
+                  <strong>
+                    Zenvia
+                  </strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <div
+          class="sc-AxhUy iyORJJ display-flex align-center justify-center flex-grow flex-wrap"
+        >
+          <div
+            class="sc-AxgMl faNyqb"
+          >
+            <div
+              class="lds-dual-ring"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders 2`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxirZ iXyIpx"
+  >
+    <div
+      class="min-h-100 display-flex"
+    >
+      <div
+        class="display-flex flex-column w-100"
+      >
+        <header>
+          <div
+            class="sc-AxirZ iXyIpx"
+          >
+            <div
+              class="sc-AxhCb bGeBvo"
+            >
+              <img
+                alt="Logo Diego Nunes"
+                src="logo.png"
+              />
+              <ul>
+                <li>
+                  Desafio técnico 
+                  <span>
+                    |
+                  </span>
+                   
+                  <strong>
+                    Zenvia
+                  </strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <div
+          class="sc-AxhUy iyORJJ display-flex align-center justify-center flex-grow flex-wrap"
+        >
+          <div>
+            <h1
+              data-testid="character-name"
+            />
+            <i>
+              ()
+            </i>
+            <h4
+              data-testid="character-birthday"
+            >
+              Birthday: 
+            </h4>
+            <h4
+              data-testid="character-nickname"
+            >
+              Nickname: 
+            </h4>
+            <img
+              alt=""
+              data-testid="character-img"
+            />
+            <a
+              class="back"
+              href="/"
+            >
+              <h5>
+                Voltar
+              </h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

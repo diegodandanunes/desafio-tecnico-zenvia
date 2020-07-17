@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxirZ iXyIpx"
+  >
+    <div
+      class="min-h-100 display-flex"
+    >
+      <div
+        class="display-flex flex-column w-100"
+      >
+        <header>
+          <div
+            class="sc-AxirZ iXyIpx"
+          >
+            <div
+              class="sc-AxgMl kGAIUv"
+            >
+              <img
+                alt="Logo Diego Nunes"
+                src="logo.png"
+              />
+              <ul>
+                <li>
+                  Desafio técnico 
+                  <span>
+                    |
+                  </span>
+                   
+                  <strong>
+                    Zenvia
+                  </strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <div
+          class="sc-AxhCb fkGitN display-flex align-center justify-center flex-grow flex-wrap"
+        >
+          <div
+            class="sc-AxhUy jWPSrp"
+          >
+            <div
+              class="lds-dual-ring"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders 2`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxirZ iXyIpx"
+  >
+    <div
+      class="min-h-100 display-flex"
+    >
+      <div
+        class="display-flex flex-column w-100"
+      >
+        <header>
+          <div
+            class="sc-AxirZ iXyIpx"
+          >
+            <div
+              class="sc-AxgMl kGAIUv"
+            >
+              <img
+                alt="Logo Diego Nunes"
+                src="logo.png"
+              />
+              <ul>
+                <li>
+                  Desafio técnico 
+                  <span>
+                    |
+                  </span>
+                   
+                  <strong>
+                    Zenvia
+                  </strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <div
+          class="sc-AxhCb fkGitN display-flex align-center justify-center flex-grow flex-wrap"
+        >
+          <div
+            data-testid="character-list"
+          >
+            <div
+              class="sc-AxheI bZrttE"
+            >
+              <a
+                data-testid="card-link"
+                href="/character/0.48951130651972985"
+              >
+                <div
+                  class="card-overlay"
+                />
+                <img
+                  data-testid="card-image"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
