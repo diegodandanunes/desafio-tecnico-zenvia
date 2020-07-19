@@ -13,9 +13,9 @@ exports[`renders 1`] = `
         class="card-overlay"
       />
       <img
-        alt="Test"
+        alt="Neo"
         data-testid="card-image"
-        src="google.com"
+        src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2020/04/Keanu-Reeves-1.jpg"
       />
     </a>
   </div>

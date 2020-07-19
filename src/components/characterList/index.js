@@ -31,7 +31,7 @@ const CharacterList = () => {
                         {   
                             isLoading 
                                 ? <Spinner />
-                                : <div data-testid="character-list">{ characters.map(character => <Card key={character.char_id} info={character}/>)}</div>
+                                : <div data-testid="character-list" className="display-flex flex-wrap justify-center">{ characters.map(character => <Card key={character.char_id} info={character}/>)}</div>
                         }
                     </CharacterListStyle>
                 </div>

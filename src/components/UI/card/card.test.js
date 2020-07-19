@@ -5,28 +5,23 @@ import { Router } from 'react-router-dom';
 import { createMemoryHistory } from 'history';
 
 import { Card } from './';
-
+import fakeData from '../../../__mocks__/character-details';
 const history = createMemoryHistory();
-const profile = {
-    char_id: '1',
-    img: 'google.com',
-    name: 'Test'
-};
 
 afterEach(cleanup);
 
 it("renders", () => {
-    const { asFragment } = render(<Router history={history}><Card info={profile} /></Router>);
+    const { asFragment } = render(<Router history={history}><Card info={fakeData.data[0]} /></Router>);
     expect(asFragment()).toMatchSnapshot();
 });
 
 it('correctly sets up card image tag', () => {
-    const { getByTestId } = render(<Router history={history}><Card info={profile} /></Router>);
-    expect(getByTestId('card-image').src).toMatch(profile.img);
-    expect(getByTestId('card-image').alt).toMatch(profile.name);
+    const { getByTestId } = render(<Router history={history}><Card info={fakeData.data[0]} /></Router>);
+    expect(getByTestId('card-image').src).toMatch(fakeData.data[0].img);
+    expect(getByTestId('card-image').alt).toMatch(fakeData.data[0].name);
 });
 
 it('correctly links character details URL', () => {
-    const { getByTestId } = render(<Router history={history}><Card info={profile} /></Router>);
-    expect(getByTestId('card-link').href).toMatch(`character/${profile.char_id}`);
+    const { getByTestId } = render(<Router history={history}><Card info={fakeData.data[0]} /></Router>);
+    expect(getByTestId('card-link').href).toMatch(`character/${fakeData.data[0].char_id}`);
 });

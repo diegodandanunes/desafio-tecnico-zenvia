@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders 1`] = `
+exports[`renders list 1`] = `
 <DocumentFragment>
   <div
     class="sc-AxirZ iXyIpx"
@@ -54,7 +54,7 @@ exports[`renders 1`] = `
 </DocumentFragment>
 `;
 
-exports[`renders 2`] = `
+exports[`renders list 2`] = `
 <DocumentFragment>
   <div
     class="sc-AxirZ iXyIpx"
@@ -95,6 +95,7 @@ exports[`renders 2`] = `
           class="sc-AxhCb fkGitN display-flex align-center justify-center flex-grow flex-wrap"
         >
           <div
+            class="display-flex flex-wrap justify-center"
             data-testid="character-list"
           >
             <div
@@ -102,7 +103,7 @@ exports[`renders 2`] = `
             >
               <a
                 data-testid="card-link"
-                href="/character/0.48951130651972985"
+                href="/character/0"
               >
                 <div
                   class="card-overlay"
